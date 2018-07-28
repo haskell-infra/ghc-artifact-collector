@@ -29,8 +29,8 @@ executable ghc-artifact-collector
   hs-source-dirs:     app
   build-depends:      base             >= 4.10 && < 5.0
                     , aeson            >= 1.2  && < 1.4
-                    , amazonka         >= 1.4  && < 1.6
-                    , amazonka-s3      >= 1.4  && < 1.6
+                    , amazonka         >= 1.4  && < 1.7
+                    , amazonka-s3      >= 1.4  && < 1.7
                     , bytestring       >= 0.10 && < 0.11
                     , lens             >= 4.4  && < 4.17
                     , optparse-applicative >= 0.14 && < 0.15
